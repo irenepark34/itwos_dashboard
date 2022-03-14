@@ -1,0 +1,19 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    font-size: 14px;
+    background-color:rgb(14, 77, 161);
+    .wrapper{
+        padding: 18px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        .admin{
+            color: white;
+            font-size: 14px;
+        }
+    }
+}

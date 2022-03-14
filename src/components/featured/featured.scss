@@ -1,0 +1,46 @@
+.featured{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.5); 
+    box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.5);
+    border-radius: 10px;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: gray;
+
+        .title{
+            margin-bottom: 20px;
+            font-size: 22px;
+            font-weight: bold;
+            color: rgb(14, 77, 161);
+        }
+    }
+
+    .bottom{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+
+        .featuredChart{
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+
+        .objective{
+            font-size: 24px;
+        }
+
+        .period{
+            font-size: 16px;
+            font-weight: 300;
+            color: gray;
+        }
+    }
+}

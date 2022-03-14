@@ -1,0 +1,21 @@
+.home {
+    display: flex;
+
+    .homeContainer {
+        flex: 6;
+
+        .widgets, .subcharts{
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        
+        .maincharts {
+            padding: 5px 20px;
+        }
+
+        .subcharts {
+            padding: 5px 20px;
+        }
+    }
+}
