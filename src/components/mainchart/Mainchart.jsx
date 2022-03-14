@@ -16,7 +16,7 @@ export default function MainChart() {
   return (
     <div className="mainchart">
         <div className="top">
-            <h2 className="title">주요 지표</h2>
+            <h2 className="title">매출 지표</h2>
             <MoreVertIcon fontSize='small'/>
         </div>
         <ResponsiveContainer width="100%" height={400}>
@@ -30,7 +30,7 @@ export default function MainChart() {
           <Tooltip />
           <Legend />
           <Bar dataKey="총매출" barSize={40} fill="rgb(14, 77, 161)" />
-          <Line type="monotone" dataKey="방문자" stroke="red" />
+          <Line type="monotone" dataKey="비급여율" stroke="red" />
           <Line type="monotone" dataKey="객단가" stroke="gray" />
         </ComposedChart>
       </ResponsiveContainer>

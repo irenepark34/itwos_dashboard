@@ -13,7 +13,7 @@ export default function Featured() {
         <div className="bottom">
             <div className="featuredChart">
                 <CircularProgressbar 
-                value={4.39} text={"4.39%"} strokeWidth={12}
+                value={4.59} text={"4.59%"} strokeWidth={12}
                 styles={buildStyles({
                     pathColor: 'rgb(14, 77, 161)',
                     textColor: 'rgb(14, 77, 161)',
@@ -21,7 +21,7 @@ export default function Featured() {
                 })}
                 />
             </div>
-            <span className='objective'>연 매출 목표 36억 원</span>   
+            <span className='objective'>연 매출 목표 대비</span>   
             <span className='period'>2022년 오픈~3월 중순 기준</span>    
         </div>    
     </div>
