@@ -10,6 +10,7 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
+  YAxis,
 } from 'recharts';
 
 export default function MainChart() {
@@ -27,6 +28,7 @@ export default function MainChart() {
         >
           <CartesianGrid stroke="#f5f5f5" className='chartGrid'/>
           <XAxis dataKey="name" scale="band"/>
+          <YAxis />
           <Tooltip />
           <Legend />
           <Bar dataKey="총매출" barSize={40} fill="rgb(14, 77, 161)" />

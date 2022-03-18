@@ -1,14 +1,13 @@
 import Home from "./pages/home/Home";
+import Admin from "./pages/admin/Admin";
 import Login from "./pages/login/Login";
-import List from "./pages/list/List";
-import Single from "./pages/single/Single";
-import New from "./pages/new/New";
 import './app.css';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
+
 
 function App() {
   return (
@@ -17,17 +16,12 @@ function App() {
         <Routes>
           <Route path='/'>
             <Route index element={<Home />} />
-            <Route path="login" element={<Login />} />   
-            <Route path="users" >
-              <Route index element={<List />} />
-              <Route path=":userId" element={<Single />} />
-              <Route path="new" element={<New />} />  
-            </Route>
-            <Route path="products" >
-              <Route index element={<List />} />
-              <Route path=":productId" element={<Single />} />
-              <Route path="new" element={<New />} />  
-            </Route>
+          </Route>
+          <Route path='/login'>
+            <Route index element={<Login />} />
+          </Route>
+          <Route path='/admin'>
+            <Route index element={<Admin />} />
           </Route>
         </Routes>
       </BrowserRouter>

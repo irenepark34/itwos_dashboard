@@ -21,8 +21,8 @@ export default function Chart() {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="방문자수" stroke="#8884d8" activeDot={{ r: 8 }} />
-          <Line type="monotone" dataKey="재방문율" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="방문자수" stroke="purple" activeDot={{ r: 8 }} />
+          <Line type="monotone" dataKey="재방문율" stroke="green" />
         </LineChart>
       </ResponsiveContainer>
       

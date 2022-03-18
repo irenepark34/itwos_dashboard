@@ -21,8 +21,8 @@ export default function Chart2() {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="신규객단가" stroke="#8884d8" activeDot={{ r: 8 }} />
-          <Line type="monotone" dataKey="재진객단가" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="신규객단가" stroke="brown" activeDot={{ r: 8 }} />
+          <Line type="monotone" dataKey="재진객단가" stroke="navy" />
         </LineChart>
       </ResponsiveContainer>
       

@@ -24,12 +24,6 @@ export default function Sidebar() {
                         분석
                     </span>
                 </li>
-                <li>
-                    <ChatBubbleIcon className="icon"/>
-                    <span>
-                        기타
-                    </span>
-                </li>
             </ul>
         </div>   
         <div className="bottom"></div>       
