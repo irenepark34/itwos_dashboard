@@ -1,12 +1,14 @@
 import Home from "./pages/home/Home";
 import Admin from "./pages/admin/Admin";
 import Login from "./pages/login/Login";
+import Analysis from "./pages/analysis/Analysis";
 import './app.css';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
+
 
 
 function App() {
@@ -17,11 +19,14 @@ function App() {
           <Route path='/'>
             <Route index element={<Home />} />
           </Route>
-          <Route path='/login'>
-            <Route index element={<Login />} />
+          <Route path='/analysis'>
+            <Route index element={<Analysis />} />
           </Route>
           <Route path='/admin'>
             <Route index element={<Admin />} />
+          </Route>
+          <Route path='/login'>
+            <Route index element={<Login />} />
           </Route>
         </Routes>
       </BrowserRouter>

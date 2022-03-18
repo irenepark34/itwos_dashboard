@@ -1,0 +1,22 @@
+.analysis {
+    width: 100%;
+    display: flex;
+  
+    .newContainer {
+      flex: 6;
+  
+      .top,
+      .bottom {
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+  
+        h2 {
+          color: rgb(14, 77, 161);
+        }
+      }
+    }
+
+  }
