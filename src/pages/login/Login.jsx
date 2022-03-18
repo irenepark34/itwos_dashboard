@@ -10,7 +10,8 @@ export default function Login() {
     <div className='login'>
         <Container maxWidth='xs'>
           <Box mb={3}>
-           <h1 className='corpName'>이태원정형외과의원</h1>
+           <h2 className='corpName'>안녕하세요🤗</h2>
+           <h2 className='corpName'>이태원정형외과의원입니다</h2>
            </Box>
           <form onSubmit={handleSubmit(onSubmit)}>
           <Box mb={3}>
