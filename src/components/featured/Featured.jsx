@@ -11,7 +11,7 @@ export default function Featured() {
             <MoreVertIcon fontSize='small'/>
         </div>
         <div className="bottom">
-            <div className="featuredChart">
+            <div className="featuredChart" style={{width: 200, height: 200}}>
                 <CircularProgressbar 
                 value={6.89} text={"6.89%"} strokeWidth={15}
                 
