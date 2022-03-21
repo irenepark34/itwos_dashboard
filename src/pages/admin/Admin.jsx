@@ -44,6 +44,14 @@ export default function Admin() {
                             <label>재방문율</label>
                             <input type={"text"} placeholder='단위: %'/>
                         </div>
+                        <div className='formInput'>
+                            <label>신규객단가</label>
+                            <input type={"text"} placeholder='단위: 천 원'/>
+                        </div>
+                        <div className='formInput'>
+                            <label>재진객단가</label>
+                            <input type={"text"} placeholder='단위: 천 원'/>
+                        </div>
                     </form>
                     <button>저장</button>
                 </div>
