@@ -1,81 +1,77 @@
-import PersonAddIcon from '@mui/icons-material/PersonAdd';
-import MonetizationOnOutlinedIcon from '@mui/icons-material/MonetizationOnOutlined';
-import HandshakeIcon from '@mui/icons-material/Handshake';
-import ReceiptIcon from '@mui/icons-material/Receipt';
-import PeopleIcon from '@mui/icons-material/People';
-import { widgetData } from '../../dataSource';
-import './widget.scss';
+import PersonAddIcon from "@mui/icons-material/PersonAdd";
+import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
+import HandshakeIcon from "@mui/icons-material/Handshake";
+import ReceiptIcon from "@mui/icons-material/Receipt";
+import PeopleIcon from "@mui/icons-material/People";
+import { widgetData } from "../../dataSource";
+import "./widget.scss";
 
-
-export default function Widget({type}) {
-
+export default function Widget({ type }) {
   let data;
 
-    switch(type){
-      case "총매출":
-        data = {
-          title : "총매출",
-          value : 291.34,
-          link : "단위 : 십만 원",
-          icon : < MonetizationOnOutlinedIcon className='icon' />,
-          percentage : 35.1,
-        }
-        break;
-      case "객단가":
-        data = {
-          title : "객단가",
-          value : 73.9,                        
-          link : "단위 : 천 원",
-          icon : < PersonAddIcon className='icon' />,
-          percentage : -7.9,
-        }
-        break;
-      case "비급여율":
-        data = {
-          title : "비급여율",
-          value : 42.4,                      
-          link : "단위 : %",
-          icon : < ReceiptIcon className='icon' />,
-          percentage : -15.2,
-        }
-        break;                
-      case "방문자수":
-        data = {
-          title : "방문자수",
-          value : 408,
-          link : "단위 : 명",
-          icon : < PeopleIcon className='icon' />,
-          percentage : 58.1,
-        }
-        break;
-      case "재방문율":
-        data = {
-          title : "재방문율",
-          value : 34.6,           
-          link : "단위 : %",
-          icon : < HandshakeIcon className='icon' />,
-          percentage : -34.9,
-        }
-        break;
-        
-        default:
-          break;
-    }
+  switch (type) {
+    case "총매출":
+      data = {
+        title: "총매출",
+        value: 378.92,
+        link: "단위 : 십만 원",
+        icon: <MonetizationOnOutlinedIcon className="icon" />,
+        percentage: 30.1,
+      };
+      break;
+    case "객단가":
+      data = {
+        title: "객단가",
+        value: 74.2,
+        link: "단위 : 천 원",
+        icon: <PersonAddIcon className="icon" />,
+        percentage: 0.4,
+      };
+      break;
+    case "비급여율":
+      data = {
+        title: "비급여율",
+        value: 50.6,
+        link: "단위 : %",
+        icon: <ReceiptIcon className="icon" />,
+        percentage: 55.0,
+      };
+      break;
+    case "방문자수":
+      data = {
+        title: "방문자수",
+        value: 480,
+        link: "단위 : 명",
+        icon: <PeopleIcon className="icon" />,
+        percentage: 17.6,
+      };
+      break;
+    case "재방문율":
+      data = {
+        title: "재방문율",
+        value: 36.9,
+        link: "단위 : %",
+        icon: <HandshakeIcon className="icon" />,
+        percentage: 6.7,
+      };
+      break;
 
+    default:
+      break;
+  }
 
   return (
-    <div className='widget'>
+    <div className="widget">
       <div className="left">
         <span className="title">{data.title}</span>
         <span className="counter">{data.value}</span>
-        <span className="link">{data.link}</span>  
+        <span className="link">{data.link}</span>
       </div>
       <div className="right">
-      <span className='last'>전주 대비</span>
-        <div className="percentages">
-          {data.percentage}% </div>
+        <span className="last">전주 대비</span>
+        <div className="percentages">{data.percentage}% </div>
         {data.icon}
-        </div>
       </div>
+    </div>
   );
-};
+}
