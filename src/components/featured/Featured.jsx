@@ -13,8 +13,8 @@ export default function Featured() {
       <div className="bottom">
         <div className="featuredChart" style={{ width: 200, height: 200 }}>
           <CircularProgressbar
-            value={9.68}
-            text={"9.68%"}
+            value={10.91}
+            text={"10.91%"}
             strokeWidth={15}
             styles={buildStyles({
               pathColor: "rgb(14, 77, 161)",
