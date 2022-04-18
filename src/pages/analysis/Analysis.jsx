@@ -16,18 +16,25 @@ export default function Analysis() {
             {" "}
             GOOD
             <li>
-              매출뿐만 아니라 질적인 지표가 가장 바람직한 형태로 변화하는 중
+              신규/재진 객단가 모두 증가하고 비급여율 매출액도 상승세입니다
             </li>
           </div>
           <div className="paragraph" style={{ color: "rgb(14, 77, 161)" }}>
             {" "}
             NOT GOOD
-            <li>3월 4주차는 개선 사항은 지표에서 확인되지 않음</li>
+            <li>최근 1개월 간 매출 가장 낮은 주였습니다</li>
           </div>
           <div className="paragraph" style={{ color: "rgb(14, 77, 161)" }}>
             {" "}
             NEXT STEP
-            <li>환자 중 셀렉해 스타벅스 쿠폰 지급 예정</li>
+            <li>
+              아직 우리 병원을 모르는 대중들이 많은 상황에서 마케팅 비용 집행이
+              너무 방어적입니다 (사용 필요)
+            </li>
+            <li>
+              신규 프로그램들을 늘려나가더라도 마케팅이 동반되어야 할 것
+              같습니다
+            </li>
           </div>
         </div>
       </div>
