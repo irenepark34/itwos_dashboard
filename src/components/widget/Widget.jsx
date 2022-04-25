@@ -3,7 +3,6 @@ import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlin
 import HandshakeIcon from "@mui/icons-material/Handshake";
 import ReceiptIcon from "@mui/icons-material/Receipt";
 import PeopleIcon from "@mui/icons-material/People";
-import { widgetData } from "../../dataSource";
 import "./widget.scss";
 
 export default function Widget({ type }) {
@@ -13,10 +12,10 @@ export default function Widget({ type }) {
     case "총매출":
       data = {
         title: "총매출",
-        value: 244.3,
+        value: 258.6,
         link: "단위 : 십만 원",
         icon: <MonetizationOnOutlinedIcon className="icon" />,
-        percentage: -4.3,
+        percentage: 5.8,
       };
       break;
     case "객단가":
@@ -25,7 +24,7 @@ export default function Widget({ type }) {
         value: 67.2,
         link: "단위 : 천 원",
         icon: <PersonAddIcon className="icon" />,
-        percentage: -10.2,
+        percentage: 11.9,
       };
       break;
     case "비급여율":
@@ -34,7 +33,7 @@ export default function Widget({ type }) {
         value: 63.7,
         link: "단위 : %",
         icon: <ReceiptIcon className="icon" />,
-        percentage: -2.5,
+        percentage: 14.7,
       };
       break;
     case "방문자수":
@@ -43,7 +42,7 @@ export default function Widget({ type }) {
         value: 322,
         link: "단위 : 명",
         icon: <PeopleIcon className="icon" />,
-        percentage: -9.3,
+        percentage: -5.9,
       };
       break;
     case "재방문율":
@@ -52,7 +51,7 @@ export default function Widget({ type }) {
         value: 54.7,
         link: "단위 : %",
         icon: <HandshakeIcon className="icon" />,
-        percentage: 9.0,
+        percentage: -4.6,
       };
       break;
 
