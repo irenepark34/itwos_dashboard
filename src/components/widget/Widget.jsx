@@ -12,46 +12,46 @@ export default function Widget({ type }) {
     case "총매출":
       data = {
         title: "총매출",
-        value: 286.2,
+        value: 276.1,
         link: "단위 : 십만 원",
         icon: <MonetizationOnOutlinedIcon className="icon" />,
-        percentage: 10.1,
+        percentage: -3.5,
       };
       break;
     case "객단가":
       data = {
         title: "객단가",
-        value: 78.0,
+        value: 70.0,
         link: "단위 : 천 원",
         icon: <PersonAddIcon className="icon" />,
-        percentage: 5.6,
+        percentage: -10.2,
       };
       break;
     case "비급여율":
       data = {
         title: "비급여율",
-        value: 65.1,
+        value: 60.6,
         link: "단위 : %",
         icon: <ReceiptIcon className="icon" />,
-        percentage: 16.3,
+        percentage: -10.2,
       };
       break;
     case "방문자수":
       data = {
         title: "방문자수",
-        value: 366,
+        value: 397,
         link: "단위 : 명",
         icon: <PeopleIcon className="icon" />,
-        percentage: 2.5,
+        percentage: 8.5,
       };
       break;
     case "재방문율":
       data = {
         title: "재방문율",
-        value: 66.7,
+        value: 62.5,
         link: "단위 : %",
         icon: <HandshakeIcon className="icon" />,
-        percentage: 2.1,
+        percentage: -6.3,
       };
       break;
 

@@ -13,8 +13,8 @@ export default function Featured() {
       <div className="bottom">
         <div className="featuredChart" style={{ width: 200, height: 200 }}>
           <CircularProgressbar
-            value={25.63}
-            text={"25.63%"}
+            value={26.78}
+            text={"26.78%"}
             strokeWidth={15}
             styles={buildStyles({
               pathColor: "rgb(14, 77, 161)",
@@ -24,7 +24,7 @@ export default function Featured() {
           />
         </div>
         <span className="objective">연 매출 24억 목표 대비</span>
-        <span className="period">2022년 7월 1주 기준</span>
+        <span className="period">2022년 7월 2주 기준</span>
       </div>
     </div>
   );
